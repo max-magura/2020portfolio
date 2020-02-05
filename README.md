@@ -1,1 +1,1 @@
-Visit portfolio here: https://vigorous-brahmagupta-1e15fe.netlify.com/
+Visit portfolio here: https://maxmagura.netlify.com/
