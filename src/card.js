@@ -28,7 +28,7 @@ class CardPortfolio extends React.Component {
         <Card.Text>
           I'm a junior web developer who is passionate about finding solutions through analytical creativity.
         </Card.Text>
-        <a href="https://www.dropbox.com/s/90ur6cki5tl06vu/maxMaguraResume.pdf?dl=0" target="_blank" rel="noopener noreferrer" download>
+        <a href="https://www.dropbox.com/s/jcrfz255qlpmong/MaxMaguraResume.docx?dl=0" target="_blank" rel="noopener noreferrer" download>
           <Button variant="outline-primary" className="topButtons col-md-4">
             Resume
           </Button>
