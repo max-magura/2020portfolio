@@ -28,12 +28,12 @@ class CardPortfolio extends React.Component {
         <Card.Text>
           I'm a junior web developer who is passionate about finding solutions through analytical creativity.
         </Card.Text>
-        <a href="https://www.dropbox.com/s/jcrfz255qlpmong/MaxMaguraResume.docx?dl=0" target="_blank" rel="noopener noreferrer" download>
+        <a href="https://www.dropbox.com/s/zh6deotpdqsxljj/Max-Magura-Resume.pdf?dl=0" target="_blank" rel="noopener noreferrer" download>
           <Button variant="outline-primary" className="topButtons col-md-4">
             Resume
           </Button>
         </a>
-        <Button variant="outline-primary" className="topButtons col-md-4" onClick={this.handleShowContactMe}>Contact Me</Button>
+        <Button variant="outline-primary" className="topButtons col-md-4" onClick={this.handleShowContactMe}>Find Me</Button>
         <hr />
         <Card.Text as="h3">
           Projects
@@ -53,19 +53,19 @@ class CardPortfolio extends React.Component {
         <a href="https://google-book-search-m1111.herokuapp.com/" target="_blank" rel="noopener noreferrer"><Button variant="outline-primary" className="projectButton col-md-12">
           <h4>Google Book API Search</h4>
           An application that lets you search for books and save them. Utilizing: HTML, JavaScript, React, MongoDB, and the Google Books API.
-        </Button></a>        
+        </Button></a> 
       </Card.Body>
     </Card>
 
 
-    <Modal show={this.state.showContactMe} onHide={this.handleCloseContactMe} size="sm">
+    <Modal show={this.state.showContactMe} onHide={this.handleCloseContactMe} size="md">
       <Modal.Header className="modalHeader" closeButton>
-        <Modal.Title>Contact Me</Modal.Title>
+        <Modal.Title>Find Me</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <ListGroup.Item className="modalList"><a href="mailto:maxnmagura@gmail.com" target="_blank" rel="noopener noreferrer">Email</a></ListGroup.Item>
-        <ListGroup.Item className="modalList"><a href="https://www.linkedin.com/in/maxmagura/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></ListGroup.Item>
-        <ListGroup.Item className="modalList"><a href="https://github.com/max-magura" target="_blank" rel="noopener noreferrer">GitHub Page</a></ListGroup.Item>
+        <ListGroup.Item className="modalList"><a href="mailto:maxnmagura@gmail.com" target="_blank" rel="noopener noreferrer">Email: maxnmagura@gmail.com</a></ListGroup.Item>
+        <ListGroup.Item className="modalList"><a href="https://www.linkedin.com/in/maxmagura/" target="_blank" rel="noopener noreferrer">LinkedIn: linkedin.com/in/maxmagura</a></ListGroup.Item>
+        <ListGroup.Item className="modalList"><a href="https://github.com/max-magura" target="_blank" rel="noopener noreferrer">GitHub: github.com/max-magura</a></ListGroup.Item>
       </Modal.Body>
     </Modal>
 
