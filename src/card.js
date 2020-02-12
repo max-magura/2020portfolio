@@ -57,7 +57,6 @@ class CardPortfolio extends React.Component {
       </Card.Body>
     </Card>
 
-
     <Modal show={this.state.showContactMe} onHide={this.handleCloseContactMe} size="md">
       <Modal.Header className="modalHeader" closeButton>
         <Modal.Title>Find Me</Modal.Title>
