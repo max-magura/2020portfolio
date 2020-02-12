@@ -35,8 +35,8 @@ class CardPortfolio extends React.Component {
         </a>
         <Button variant="outline-primary" className="topButtons col-md-4" onClick={this.handleShowContactMe}>Find Me</Button>
         <hr />
-        <Card.Text as="h3">
-          Projects
+        <Card.Text>
+          <h3>Projects </h3><i>Click to view</i>
         </Card.Text>
         <a href="https://pedantic-swirles-516f15.netlify.com/" target="_blank" rel="noopener noreferrer"><Button variant="outline-primary" className="btn projectButton col-md-12">
           <h4>Raduno</h4>
