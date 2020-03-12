@@ -33,7 +33,7 @@ class CardPortfolio extends React.Component {
             Resume
           </Button>
         </a>
-        <Button variant="outline-primary" className="topButtons col-md-4" onClick={this.handleShowContactMe}>Find Me</Button>
+        <Button variant="outline-primary" className="topButtons col-md-4" onClick={this.handleShowContactMe}>Find Me Online</Button>
         <hr />
         <Card.Text>
           <h3>Projects </h3><i>Click to view</i>
