@@ -42,7 +42,7 @@ class CardPortfolio extends React.Component {
           <h4>Raduno</h4>
          Raduno is a potluck management app that helps decrease the back and forth communication between hosts and guests and makes sure all parties are well informed. Utlizing: Node, Express, Sequelize, JavaScript / jQuery, MySQL, Session Storage, React, React Bootstrap, BCrypt, EmailJS, and MomentJS.
         </Button></a>
-        <a href="https://thawing-journey-93545.herokuapp.com/" target="_blank" rel="noopener noreferrer"><Button variant="outline-primary" className="btn projectButton col-md-12">
+        <a href="https://lipin-1.herokuapp.com/" target="_blank" rel="noopener noreferrer"><Button variant="outline-primary" className="btn projectButton col-md-12">
           <h4>Lipin</h4>
           An application that simplifies ways to track your gift giving lists. Utlizing: Node, Express, Sequelize, JavaScript / jQuery, MySQL, Session Storage, Handlebars, Bulma, ChartJS.
         </Button></a>
